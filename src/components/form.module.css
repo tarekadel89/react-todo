@@ -1,0 +1,42 @@
+.inputWrapper {
+  position: relative;
+  width: 50%;
+  margin: 40px auto 20px auto; /* top, horizontal auto, bottom */
+  /* Optionally, add min-width for responsiveness */
+  min-width: 250px;
+}
+
+.todoInput {
+  width: 100%;
+  padding: 10px 44px 10px 10px; /* right padding for button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.addButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 32px;
+  width: 32px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.addButton:hover {
+  background: #388e3c;
+}
+.addButton:active {
+  background: #2e7d32;
+}

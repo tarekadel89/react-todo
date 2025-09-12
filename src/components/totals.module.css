@@ -1,0 +1,25 @@
+.totalsContainer {
+  background: #282c34;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 24px auto;
+  width: fit-content;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgba(40, 44, 52, 0.08);
+}
+
+.totalsContainer span {
+  font-weight: 500;
+}
+
+.totalsContainer span:nth-child(2) {
+  color: #4caf50;
+}
+
+.totalsContainer span:nth-child(3) {
+  color: #ffc107;
+}

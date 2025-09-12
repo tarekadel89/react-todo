@@ -1,0 +1,77 @@
+.todoItemRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.todoItem {
+  flex: 1;
+  font-size: 18px;
+}
+
+.deleteButton {
+  background: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  transition: background 0.2s;
+}
+
+.deleteButton:hover {
+  background: #d32f2f;
+}
+
+.completeButton {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: background 0.2s;
+}
+
+.completeButton:hover {
+  background: #388e3c;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.resetButton {
+  background: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: background 0.2s;
+}
+
+.resetButton:hover {
+  background: #ffb300;
+}
